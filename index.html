@@ -24,9 +24,9 @@
 
 <body style="background-color: whitesmoke">
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">STAY IN</a>
+      <a class="navbar-brand" href="/index.html">STAY IN</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,20 +34,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">about</a>
+            <a class="nav-link" href="/about.html">about</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Hotels</a>
+            <a class="nav-link" href="/hotel.html">Hotels</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
           </li>
-
+        </ul>
+        <a class="btn btn-primary" style="border-radius: 2rem; margin: 5px;" href="/login.html" role="button">Login</a> 
+        <a class="btn btn-outline-dark" style="border-radius: 2.25rem;" href="/signup.html">Sign up</a>
       </div>
     </div>
   </nav>
@@ -125,7 +127,12 @@
         </div>
       </div>
       <br>
-      <button type="button" class="btn btn-warning btn-lg">Proceed</button>
+      <button onclick="myFunction()" type="button" class="btn btn-warning btn-lg">Proceed</button>
+      <script>
+        function myFunction() {
+          alert("Please Login or Sign Up to your account!");
+        }
+        </script>
     </div>
   </div>
 
@@ -227,7 +234,7 @@
 
             <div class="card-body">
               <p class="card-text"> <B>Deluxe Room </B><br>
-                Room for 2 peoples, with air conditioner
+                Room for 2 peoples, with air conditioned
               </p>
             </div>
             <img src="image/r1.jpg" class="card-img-top" alt="...">
@@ -407,8 +414,8 @@
             <h5 class="text-uppercase">STAY IN</h5>
 
             <p>
-             Our services are best and on time. We never disappoint our clients
-             and booking of hotel rooms from our site is vey easy.
+              Our services are best and on time. We never disappoint our clients
+              and booking of hotel rooms from our site is vey easy.
             </p>
           </div>
           <!--Grid column-->
@@ -419,13 +426,13 @@
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">About</a>
+                <a href="/about.html" class="text-white">About</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Contact</a>
+                <a href="/contact.html" class="text-white">Contact</a>
               </li>
               <li>
-                <a href="#!" class="text-white"> Hotels </a>
+                <a href="/hotel.html" class="text-white"> Hotels </a>
               </li>
             </ul>
           </div>
@@ -437,28 +444,30 @@
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">Mail@gmail.com</a>
+                <a href="#!" class="text-white">namansharma2132@gmail.com</a>
               </li>
               <li>
                 +91 xxxxxxxxxx
               </li>
-              
+
             </ul>
           </div>
           <!--Grid column-->
 
           <!--Grid column-->
           <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Office Address</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">8 -22, Jaipur, 302015</a>
+                <a href="#!" class="text-white">PGI</a>
               </li>
               <li>
                 <a href="#!" class="text-white">Jaipur</a>
               </li>
-              
+
             </ul>
           </div>
           <!--Grid column-->
@@ -506,22 +515,22 @@
       <!-- Section: Social media -->
       <section class="mb-4 text-center">
         <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+        <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a> -->
 
         <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/NamanSh37333951" role="button"><i class="fab fa-twitter"></i></a>
 
         <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="mailto:namansharma2132@gmail.com" role="button"><i class="fab fa-google"></i></a>
 
         <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/namansharma2001/" role="button"><i class="fab fa-instagram"></i></a>
 
         <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/naman-sharma-0291a321a/" role="button"><i class="fab fa-linkedin-in"></i></a>
 
         <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/NamanSharma051" role="button"><i class="fab fa-github"></i></a>
       </section>
       <!-- Section: Social media -->
     </div>
@@ -529,13 +538,12 @@
 
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-      © 2020 Copyright:
-      <a class="text-white" href="http://piyushagarwal.club/"> Made by MNN</a>
+      © 2021 Copyright:
+      <a class="text-white" href="#!"> Made by MNN</a>
     </div>
     <!-- Copyright -->
   </footer>
-  <!-- Footer -->
-
+<!-- footer   -->
   <!-- End of .container -->
 
   <!-- Optional JavaScript; choose one of the two! -->
